@@ -4,7 +4,7 @@
 
 import Foundation
 
-public class FlagKit {
+public class FlagKitBundleFinder {
     public static var assetBundle: Bundle {
         get {
             #if SWIFT_PACKAGE
