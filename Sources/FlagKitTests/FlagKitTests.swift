@@ -7,7 +7,7 @@ import FlagKit
 
 class FlagKitTests: XCTestCase {
     func testAssetBunde() {
-        let bundle = FlagKit.assetBundle
+        let bundle = FlagKitBundleFinder.assetBundle
         XCTAssertNotNil(bundle)
     }
 }
